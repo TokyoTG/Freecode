@@ -1,0 +1,248 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+    background: rgb(243, 234, 234);
+}
+#main{
+    background: rgb(243, 234, 234);
+}
+.grid{
+    margin: 0 auto;
+    min-width: 300px;
+}
+.fa{
+    display: none;
+    color: rgb(209, 126, 24);
+}
+h4{
+    font-size: 1.2em;
+}
+p,h4{
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+#features{
+    display: inline-block;
+    text-align: center;
+}
+
+#nav-bar{
+    margin: 0 auto;
+    min-width: 300px;
+    /* background: green; */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+h2{
+    text-align: center;
+}
+embed{
+    width: 95%;
+    margin: 10px 2.5%;
+}
+#email{
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 280px;
+    padding: 10px;
+    height: 15px;
+    border: none;
+}
+#submit{
+    width: 150px;
+    /* height: 15px; */
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 3px;
+    background: rgb(248, 213, 15) ;
+    border: none;
+}
+#form{
+    text-align: center;
+}
+#logo{
+    /* background: limegreen; */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto 0 auto;
+    padding: 0 10px 0 10px;
+}
+nav ul{
+    /* border: 1px solid; */
+    padding: 0 5px 0 10px;
+}
+nav li{
+    margin-bottom: 5px;
+    text-align: center;
+}
+li{
+    list-style: none;   
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 300px;
+    /* border: 1px solid; */
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgb(243, 234, 234);
+    flex-wrap: wrap;
+}
+section{
+    margin-top: 150px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    width: 80%;
+    margin: 10px 10%;
+}
+.card{
+    border: 1px solid;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 300px;
+}
+.card h4{
+    margin: 0;
+    padding: 10px 0;
+}
+.cardT{
+    background: rgb(212, 197, 197);
+    line-height: 1.5;
+    width: 100%;
+    
+}
+.card p{
+    line-height: 0.8;
+    /* margin: 5px 0; */
+}
+.card button{
+    background:rgb(248, 213, 15) ;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    font-weight: bold;
+    border: none;
+}
+footer{
+    background:rgb(212, 197, 197);
+    padding: 10px;
+    min-width: 300px;
+    margin-top: 20px;
+    text-align: right;
+}
+footer li{
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+}
+footer p{
+    margin: 0 0 10px 0;
+    color: rgba(8, 8, 8, 0.733);
+    font-size: 0.9em;
+}
+#video{
+    width: 60%;
+    margin: 0 auto;
+}
+@media screen and (max-width:350px){
+    img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:300px){
+    img, #logo{
+        max-width: 250px;
+    }
+    
+}
+@media screen and (min-width:650px){
+    nav ul li{
+        display: inline-block;
+        margin-right: 15px;
+    }
+    nav{
+        text-align: right;
+    }
+    #logo{
+        display: inline-block;
+        width: 50%;
+        /* border: 1px solid; */
+    }
+    embed{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        max-width: 575px;
+        height: 300px;
+    }
+    #vid{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1000px){
+    footer{
+        margin: 20px 2.5% 0 2.5%;
+        width: 95%;
+    }
+}
+@media screen and (min-width:560px){
+    .fa{
+        display: inline-block;
+        padding: 10px;
+        font-size: 3em;
+        margin: 40% 10% 20% 10%;
+        /* border: 1px solid; */
+    }
+    .fire{
+        margin-right: 15px;
+    }
+    #features{
+        max-width: 60%;
+        margin: 0 10% 0 20%;
+    }
+    /* .icon{
+        border: 1px solid;
+    } */
+    .des{
+        margin: 20px auto 20px auto;
+        padding: 10px;
+        
+    }
+    .des h4{
+        margin:0;
+        text-align: left;
+        padding: 0;
+    }
+   .des p{
+        text-align: justify;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid; */
+    }
+    .grid{    
+        display: flex;
+    }
+}
+@media screen and (min-width:800px){
+    /* .container{
+        display: flex;
+    } */
+    .card{
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,128 @@
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(39, 30, 51);
+    color: white;
+    display: flex;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+     */
+}
+
+a,
+h3 {
+    color: white;
+    line-height: 0.9;
+    margin:  0;
+    padding: 0;
+    text-decoration: none;
+    /* border: 1px solid; */
+}
+
+span a {
+    color: white;
+    font-variant: normal;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover {
+    background: rgb(128, 128, 128);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+    border: 2.5px solid rgb(71, 69, 69);
+    border-radius: 10px;
+    list-style: none;
+}
+
+nav {
+    text-align: right;
+    align-self: center;
+    flex: 4;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+#sign {
+    background: rgb(92, 177, 92);
+    color: rgb(39, 30, 51);
+}
+
+#pen {
+    color: grey;
+    font-variant: small-caps;
+    font-size: .9em;
+}
+
+#main{
+    background: rgba(49, 107, 196,.3)  ;
+    background-size: cover;
+}
+
+#form-container{
+    background: rgba(41, 53, 90, 0.9);
+    width: 60%;
+    padding: 40px 40px 50px 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+label{
+    display: inline-block;
+    margin: 10px 0 10px 0;
+    color: white;
+}
+#email, #number, #name{
+    padding: 5px 0  0 15px;
+    height: 30px;
+    width: 98%;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.select{
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 0  0 10px;
+    font-size: 1em;
+}
+input{
+    margin-bottom: 5px;
+}
+#submit{
+    color: white;
+    width: 98%;
+    border: none;
+    border-radius: 5px;
+    background: rgb(92, 177, 92);
+    padding: 5px 0  0 15px;
+    height: 50px;
+}
+textarea{
+    width: 97%;
+    margin-bottom: 40px;
+    height: 130px;
+    font-size: 1.5em;
+}
+
+#title, #description{
+    text-align: center;
+}
